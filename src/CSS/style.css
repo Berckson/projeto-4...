@@ -1,13 +1,28 @@
-* {
-    padding: 0;
-    margin: 0;
+
+:root {
+    --white-gray: #f1f5f9;
+    --black-gray: #212529;
+
 }
 
+.is-light {
+
+    background-color: var(--white-gray);
+    color: var(--black-gray);
+
+}
+
+.is-dark {
+    background-color: var(--black-gray);
+    color: var(--white-gray);
+}
 .tabela {
     width: 200%; 
-    border: 5px solid rgb(255, 0, 0);
+    text-align: center;
+   
 }
 
 table, th, td { 
-    border: 1px solid black;
+    border: 20px solid rgba(19, 0, 2, 0);
+    
 }
