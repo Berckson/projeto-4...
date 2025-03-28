@@ -3,9 +3,11 @@
     margin: 0;
 }
 
-.tabela{
-    width:200%
+.tabela {
+    width: 200%; 
+    border: 5px solid rgb(255, 0, 0);
 }
-.tabela{
-    border: 5px solid black;
+
+table, th, td { 
+    border: 1px solid black;
 }
